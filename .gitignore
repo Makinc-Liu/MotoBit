@@ -1,0 +1,83 @@
+# A .gitignore for Keil projects.
+# Taken mostly from http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
+
+# User-specific uVision files
+/software/k6p6/*.opt
+/software/k6p6/*.uvoptx
+/software/k6p6/*.uvgui
+/software/k6p6/*.uvopt
+/software/k6p6/*.uvgui.*
+/software/k6p6/*.uvguix.*
+
+# Listing files
+/software/k6p6/*.cod
+/software/k6p6/*.htm
+/software/k6p6/*.i
+/software/k6p6/*.lst
+/software/k6p6/*.map
+/software/k6p6/*.m51
+/software/k6p6/*.m66
+# define exception below if needed
+/software/k6p6/*.scr
+
+# Object and HEX files
+/software/k6p6/*.axf
+/software/k6p6/*.b[0-3][0-9]
+/software/k6p6/*.hex
+/software/k6p6/*.d
+/software/k6p6/*.crf
+/software/k6p6/*.elf
+/software/k6p6/*.hex
+/software/k6p6/*.h86
+/software/k6p6/*.lib
+/software/k6p6/*.obj
+/software/k6p6/*.o
+/software/k6p6/*.sbr
+
+# Build files
+# define exception below if needed
+/software/k6p6/*.bat
+/software/k6p6/*._ia
+/software/k6p6/*.__i
+/software/k6p6/*._ii
+
+# Generated output files
+/Listings/*
+/Objects/*
+
+# Debugger files
+# define exception below if needed
+/software/k6p6/*.ini
+
+# Other files
+/software/k6p6/*.build_log.htm
+/software/k6p6/*.cdb
+/software/k6p6/*.dep
+/software/k6p6/*.ic
+/software/k6p6/*.lin
+/software/k6p6/*.lnp
+/software/k6p6/*.orc
+# define exception below if needed
+/software/k6p6/*.pack
+# define exception below if needed
+/software/k6p6/*.pdsc
+/software/k6p6/*.plg
+# define exception below if needed
+/software/k6p6/*.sct
+/software/k6p6/*.sfd
+/software/k6p6/*.sfr
+
+# Miscellaneous
+/software/k6p6/*.tra
+/software/k6p6/*.bin
+/software/k6p6/*.fed
+/software/k6p6/*.l1p
+/software/k6p6/*.l2p
+/software/k6p6/*.iex
+
+# To explicitly override the above, define any exceptions here; e.g.:
+# !my_customized_scatter_file.sct
+
+JLinkLog.txt
+.vscode/
+.mxproject
